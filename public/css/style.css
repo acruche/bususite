@@ -1,0 +1,371 @@
+
+#header {
+    position: fixed;
+    top: 0px;
+    height: 64px;
+    display:block;
+    width: 100%;
+    background: #416c94;
+    z-index: 9;
+    text-align:center;
+	color: #f2f2f2;
+}
+
+nav {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+/*styling open close button*/
+#logo {
+	position: absolute;
+	top: -3px;
+	left: 15.5%;
+}
+
+#logo img {
+	width: 120px;
+}
+
+.content {
+	width:100%;
+	margin-top:200px;
+	font-size:20px;
+	color: #333;
+	text-align: center;
+}
+
+.section:nth-child(6) {
+    padding: 10%;
+}
+
+/* Navegação Dots */
+#fp-nav.right {
+	right: 8.2%;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{ 
+	background: #ccc;
+}
+
+.section {
+    text-align:center;
+}
+
+/* Page 1 */
+#page1 {
+	text-align: left;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	grid-column-gap: 20px;
+	grid-template-areas: "left right";
+}
+
+#page1 .left {
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-left: 30%;
+}
+
+#page1 .left > h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	letter-spacing: 1.5px;
+	color: #1f3c47;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#page1 .left > p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+	line-height: 30px;
+}
+
+#page1 .left .options {
+	margin-top: 50px;
+}
+
+#page1 .left .options a > img {
+	vertical-align: middle;
+}
+
+#page1 .right {
+	padding-right: 30%;
+}
+
+#page1 .right > img {
+	width: 100%;
+}
+
+/* Page 2*/
+.section:nth-child(2) {
+	background: url(../img/bgPage2.png) center top;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#page2 {
+	margin-top: 64px;
+	height: calc(100% - 64px);
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-rows: 20% 70%;
+	grid-template-areas: 
+		"top top top"
+		"left center right";
+	padding: 0 12%;
+}
+
+#page2 > .top {
+	width: 100%;
+	grid-area: top;
+}
+
+#page2 .top > h6 {
+	text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#page2 > .top h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	color: #ffffff;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+
+#page2 > .left {
+	background-color: #fff;
+	padding-top: 100px;
+}
+
+#page2 > .center {
+	background-color: #fff;
+	padding-top: 100px; 
+}
+
+#page2 .center .line {
+	border-left: 1px solid #829db2; 
+	border-right: 1px solid #829db2; 
+}
+
+#page2 > .right {
+	background-color: #fff;
+	padding-top: 75px; 
+}
+
+#page2 .left img {
+	width: 50%;
+}
+
+#page2 .center img {
+	width: 50%;
+}
+
+#page2 .right img {
+	width: 40%;
+	margin-bottom: 25px;
+}
+
+#page2 .left h2, #page2 .center h2, #page2 .right h2 {
+	font-size: 25pt;
+	font-family: 'Montserrat', sans-serif;
+	color: #00cff7;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 0 16%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 40px;
+}
+
+#page2 .left p, #page2 .center p, #page2 .right p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+	line-height: 20px;
+	margin: 0 16%;
+}
+ 
+/* Page 3 */
+#page3 {
+	margin-top: 64px;
+	height: calc(100% - 64px);
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+		"left right";
+	padding: 8% 12%;
+}
+
+#page3 > .left img {
+	width: 80%;
+}
+
+#page3 > .right {
+	text-align: left;
+}
+
+#page3 .right h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	letter-spacing: 1.5px;
+	color: #1f3c47;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#page3 .right h6 {
+	text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#page3 .right p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+	line-height: 30px;
+}
+
+/* Page 4 */
+#page4 {
+	margin-top: 64px;
+	height: calc(100% - 64px);
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-rows: 40% 60%;
+	grid-template-areas: 
+		"top top top"
+		"left right right";
+	padding: 8% 12%;
+}
+
+#page4 > .top {
+	grid-area: top;
+}
+
+#page4 > .top img {
+	width: 25%;
+}
+
+#page4 > .top img:nth-child(2) {
+	margin: 0 100px;
+}
+
+#page4 .left {
+	grid-area: left;
+	text-align: left;
+}
+
+#page4 .left h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	letter-spacing: 1.5px;
+	color: #1f3c47;
+	margin-bottom: 0px;
+	font-weight: 600;
+	line-height: 60px;
+	margin-top: 15px;
+}
+
+#page4 .left h6 {
+	text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+
+#page4 .right {
+	grid-area: right;
+	width: 100%;
+	text-align: left;
+	padding-left: 50px;
+}
+
+#page4 .right p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+	line-height: 40px;
+	margin-top: 60px;
+}
+
+/* Page 5 */
+#page5 {
+	margin-top: 64px;
+	height: calc(100% - 64px);
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+		"left right";
+}
+
+#page5 .left {
+	background-color: red
+}
+
+#page5 .right {
+	text-align: left;
+	background-color: #1f3c47;
+	padding: 15% 40% 0 15%;
+}
+
+#page5 .right h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	letter-spacing: 1.5px;
+	color: #fff;
+	margin-bottom: 0px;
+	font-weight: 600;
+	line-height: 60px;
+	margin-top: 15px;
+}
+
+#page5 .right h6 {
+	text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+
+#page5 .right p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+	line-height: 40px;
+}
+
